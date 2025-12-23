@@ -8,4 +8,4 @@ class Config:
     SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URI', 'postgresql://localhost:5432/wisprdb')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-    DEEPGRAM_API_KEY = os.getenv('DEEPGRAM_API_KEY', '<your_api_key>')
+    DEEPGRAM_API_KEY = os.getenv('DEEPGRAM_API_KEY')
