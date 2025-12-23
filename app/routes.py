@@ -59,7 +59,7 @@ def transcribe_audio():
                             json.dump({
                                 "type": "transcript",
                                 "text": transcript,
-                                "is_final": result.get("is_final", False)
+                                "is_final": result.get("is_final", False),
                             })
                         ))
 
